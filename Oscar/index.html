@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="mx">
+<head>
+    <style> /*Se ocupa para estilos*/
+        body{
+            background-color: bisque;
+        }
+        header{
+            color: rgb(255, 0, 0); /*Color de fondo*/
+            font-size: 25px; /*Tamaño del elemento*/
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif ; /*Tipo de letra*/
+            background-color: rgb(21, 255, 0); /*Fondo*/
+            border: 2px solid black;
+            border-radius: 35px;
+        }
+        main{
+            background: bisque;
+        }
+        nav{
+            background-color: rgb(255, 127, 249);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 2px solid black;
+            border-radius: 35px;
+        }
+         a{
+            text-decoration: none; /*Quita el subrayado*/
+        }
+        .section1{
+            font-size: 20px; /*Tamaño de letra*/
+            color: rgb(0, 0, 0); /*Color del texto*/
+            background: rgb(52, 156, 224);
+            text-align: center;
+            font-family: cursive; /*Tipo de letra*/
+            border: 4px solid black;
+        }
+        .section2{
+            font-size: x-large;
+            text-align: center;
+            background-color: brown;
+            color: aliceblue;
+            font-family: serif;
+            border: 2px solid black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+</head>
+
+<body>
+    <header><!--Es una etiqueta semantica--> 
+        <h1>Bienvenido a PILARES</h1>
+        <nav> <!--Etiqueta semantica-->
+            <a href="#">Inicio</a>
+            <a href="#">Galeria</a>
+            <!--Nos lleva a la pagina pilares.html-->
+            <a href="pilares.html">PILARES</a>
+        </nav>
+    </header><br>
+
+    <!--Me ayuda a englobar todo mi contenido principal-etiqueta semanticas-->
+    <main>
+        <section class="section1"><!--Etiqueta semantica-->
+            <img src="img/pilares.png" alt="pilares" width="300px" height="250px"> <!--src,alt-atributos-->
+            <p> Encontraras diferentes <strong>actividades</strong> como : <br>Compuacion, Serigrafia, box ...<img src="img/informes.ico" width="50px" height="50px"> </p>
+        </section><br>
+
+        <section class="section2">
+            <!--h1...h6-->
+            <h2>CIBERESCUELA</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste aspernatur fugiat sed placeat voluptas quas mollitia ducimus dolorum atque. Doloremque, quaerat? Facere, atque. 
+                Adipisci doloremque perferendis impedit praesentium assumenda aperiam.</p>
+            <img src="https://jefaturadegobierno.cdmx.gob.mx/storage/app/uploads/public/5dc/594/b3c/5dc594b3ce415931567822.jpeg" alt="CIBERESCUELA" width="450px" height="350px">
+        </section>
+    </main><br>
+
+    <!--Pie de pagina-->
+    <footer>
+        <img src="img/facebook.ico" alt="facebook" height="50" width="50">
+        <img src="img/instagram.ico" alt="instagram" height="50" width="50">
+        <img src="img/youtube.ico" alt="youtube" height="50" width="50">
+    </footer>
+
+</body>
